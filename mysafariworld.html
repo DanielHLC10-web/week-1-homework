@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>
+    .slide{
+        height: 200px;
+        padding: 70px;
+        text-align: center;
+        font-size: 25px;
+        color: aliceblue;
+
+    }
+    .a{
+        background-color: aquamarine;
+    }
+    .b{
+        background-color: burlywood;
+    }
+    section{
+        height: 500px;
+        padding: 70px;
+    }
+    #tundra{
+      background-color: aquamarine;
+    }
+    #desert{
+      background-color: burlywood;
+    }
+</style>
+
+    <title>My Safari world</title>
+</head>
+<body data-spy="scroll" data-target="#nav"> 
+    <div id="car" class="carousel slide " data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active slide a">Tundra Safari</div>
+            <div class="carousel-item slide b">Desert Safari</div>
+        </div>
+        <a class="carousel-control-prev" href="#car" data-slide="prev"><</a>
+        <a class="carousel-control-next" href="#car" data-slide="next">></a>
+    </div>
+<nav id="nav" class="navbar navbar-dark bg-dark sticky-top">
+    <a class=" navbar-brand text-white">Safari</a>
+    <a class="text-white" href="#tundra">Tundra</a>
+    <a class="text-white" href="#desert">Desert</a>
+</nav>
+    <section id="tundra">
+        <h3>Tundra</h3>
+        <p>A tundra safari is a guided trip into cold, northern lands to see wild animals like polar bears, musk oxen, and reindeer.</p>
+
+
+    </section>
+    <section id="desert">
+        <h3>Desert</h3>
+        <p>A desert safari is an outdoor adventure tour in a sandy desert region, most famously run in places like Dubai, that features 4x4 dune bashing, camel rides, and traditional camp dinners.</p>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
